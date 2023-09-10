@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #000000, #090004, #0d000c, #0c0015, #03001c);
+}
+
+.content {
+    display: flex;
+}
+
+image {
+    display: flex;
+    align-items: center;
+    margin: 0 5em;
+}
+
+.image {
+    height: 50vh;
+    cursor: pointer;
+}
+
+.datas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5em;
+    height: 100vh;
+    gap: 5em;
+    color: white;
+}
+
+.title {
+    font-size: 20px;
+}
