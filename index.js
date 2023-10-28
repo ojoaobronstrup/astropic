@@ -13,6 +13,8 @@ fetch('https://api.nasa.gov/planetary/apod?api_key=Shkrf4GWfgLRgXnkgStM65xRXdmkK
         title.classList.add('title')
         datas.appendChild(title)
         title.innerText = data.title
+        title.style.textTransform = "uppercase"
+        title.style.fontSize = "42px"
 
         var text = document.createElement('h3')
         text.classList.add('text')
